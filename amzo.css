@@ -1,0 +1,64 @@
+.title {
+  color: #c73866;
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+.text {
+  color: black;
+  text-align: center;
+  margin-top: 55px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+
+.pp {
+  color: #d5aaff;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.ppp {
+  color: #d5aaff;
+  text-align: center;
+  margin-top: 230px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c73866;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  word-spacing: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffbec2;
+}
+

@@ -1,0 +1,123 @@
+.title {
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Rock 3D', cursive;;
+  font-size: 40px;
+  color: #c73866;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.he {
+  left: 200px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c73866;
+  font-size: 25px;
+}
+
+.container {
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:  25px;
+}
+
+.gallery-img {
+  width: 70%;
+  height: 60%;
+  object-fit: cover;
+  position: relative;
+  filter: grayscale(100%);
+  border-radius: 15%;
+}
+
+button {
+  position: absolute;
+  background-color: #f89938;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+
+.btn0 {
+  top: 27%;
+  left: 0%;
+}
+
+.btn0a {
+  top: 27%;
+  left: 33%;
+}
+
+.btn0b {
+  top: 27%;
+  left: 67%;
+}
+
+.btn1 {
+  top: 63%;
+  left: 0%;
+}
+
+.btn2 {
+  top: 63%;
+  left: 33%;
+}
+
+.btn3 {
+  top: 63%;
+  left: 67%;
+}
+
+.btn4 {
+  top: 98%;
+  left: 0%;
+}
+
+.btn5 {
+  top: 98%;
+  left: 33%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c73866;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  word-spacing: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffbec2;
+}

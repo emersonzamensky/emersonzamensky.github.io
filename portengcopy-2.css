@@ -1,0 +1,170 @@
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Rock 3D', cursive;;
+  font-size: 40px;
+  color: #c73866;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.he {
+  left: 200px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c73866;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.button-img {
+  position: relative;
+}
+
+.gallery-img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+  filter: grayscale(100%);
+  border-radius: 15%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+a.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f89938;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50%;
+  text-align: center;
+}
+
+@media(max-width:900px) {
+  a.button {
+    width: 50px;
+    font-size: 10px;
+   }
+}
+
+a:link {
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+     background-color: lightgray;
+}
+
+/* button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f89938;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50%;
+  line-height: 45px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+button:hover {
+  background-color: lightgray;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c73866;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  word-spacing: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffbec2;
+}
+
+
+.btn0 {
+  top: 27%;
+  left: 0%;
+}
+
+.btn0a {
+  top: 27%;
+  left: 33%;
+}
+
+.btn0b {
+  top: 27%;
+  left: 67%;
+}
+
+.btn1 {
+  top: 63%;
+  left: 0%;
+}
+
+.btn2 {
+  top: 63%;
+  left: 33%;
+}
+
+.btn3 {
+  top: 63%;
+  left: 67%;
+}
+
+.btn4 {
+  top: 98%;
+  left: 0%;
+}
+
+.btn5 {
+  top: 98%;
+  left: 33%;
+}

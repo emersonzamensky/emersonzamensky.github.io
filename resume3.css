@@ -1,0 +1,106 @@
+.msg { padding: 10px; background: #ffdca2; position: relative; }
+.msg h1 { color: #f89938;  }
+.msg a { margin-left: 20px; background: #ffdca2 color: #ffdca2; padding: 4px 8px; text-decoration: none; }
+.msg a:hover { background: #266400; }
+
+/* //-- yui-grids style overrides -- */
+body { font-family: Georgia; color: black; background-color: #ff894c; }
+#inner { padding: 10px 80px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 8px 0 2px 0; }
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+
+/* //-- header, body, footer -- */
+#hd { margin: 0em 0 0em 0em; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+#bd, #ft { margin-bottom: 2em; }
+
+/* //-- footer -- */
+#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; font-family: 'Open Sans', sans-serif;}
+#ft p { margin-bottom: 0; text-align: center;   }
+
+/* //-- core typography and style -- */
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; font-family: 'Open Sans', sans-serif;}
+h2 { font-size: 157% font-family: 'Open Sans', sans-serif;}
+h5 { font-size: 157%; color: c73866; font-family: 'Open Sans', sans-serif;}
+h6 { font-size: 120%; margin-top: 10px; font-family: 'Open Sans', sans-serif;}
+h3, h4 { font-size: 122%; font-family: 'Open Sans', sans-serif;}
+h1 { color: c73866; font-family: 'Open Sans', sans-serif;}
+h2 { color: black; font-family: 'Open Sans', sans-serif; font-size: 157%;}
+h3 { color: black; font-family: 'Open Sans', sans-serif; }
+h4 { color:  c73866; font-family: 'Open Sans', sans-serif; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #990003 }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+li { line-height: 24px; border-bottom: 1px solid #ccc; }
+p.enlarge { font-size: 100%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 7px; }
+.first h2 { font-style: italic; }
+.last { border-bottom: 0 }
+
+img{
+    width: 220px;
+    height: auto;
+}
+
+
+
+/* //-- section styles -- */
+
+
+
+a#email { color: #ff894c; font-family: 'Open Sans', sans-serif; }
+a#email:hover; { color: ffdca2; }
+
+.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 0.75em 0 3em 0; }
+
+.last { border: none; }
+.skills-list {  }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.talent { width: 25%; float: left }
+.talent h2 { margin-bottom: 6px; }
+.talent2 { width: 30%; float: left }
+.talent2 h2 { margin-bottom: 6px; }
+
+#srt-ttab { margin-bottom: 100px; text-align: center;  }
+#srt-ttab img.last { margin-top: 20px }
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c73866;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  word-spacing: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffbec2;
+}
+
+/*<!--// I borrowed the code for this template from https://freefrontend.com/html-resume-templates/  -->
+
+

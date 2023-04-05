@@ -1,0 +1,24 @@
+.title {
+  color: #c73866;
+  text-align: center;
+  margin-top: 55px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.text {
+  color: black;
+  text-align: center;
+  margin-top:90px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pp {
+  color: #d5aaff;
+  text-align: center;
+  margin-top: 100px;
+  border-color: #f1676f;
+  border-width: 20px;
+
+}
